@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "ba537177-d4ff-46a9-9a9b-af524c8c76f9",
+		"name": "StarWars API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20524930"
+	},
+	"item": [
+		{
+			"name": "WebClient Copy",
+			"item": [
+				{
+					"name": "peoples findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/webclient/peoples/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"webclient",
+								"peoples",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "films findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/webclient/films/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"webclient",
+								"films",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "films findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/webclient/films",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"webclient",
+								"films"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ReactiveFeign Copy",
+			"item": [
+				{
+					"name": "peoples findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/reactive-feign/peoples/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reactive-feign",
+								"peoples",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "films findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/reactive-feign/films/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reactive-feign",
+								"films",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "films findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/reactive-feign/films",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reactive-feign",
+								"films"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

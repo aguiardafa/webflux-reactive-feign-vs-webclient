@@ -36,7 +36,8 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 3. Ainda pelo terminal, aberto na raiz da pasta do Repositório, execute o comando Maven `mvn spring-boot:run` para executar a aplicação; e
 4. Acesse a url `http://localhost:8080/entregas` pelo navegador para visualizar o Sistema.
    - <b>Obs.: </b>Após executar o passo 3, a mensagem que aparece no final da execução no terminal será <b>"Netty started on port 8080"</b>, que significa que a Aplicação Web foi inciada e está acessível na porta 8080.
-   - <b>Dica: </b>Caso queira uma melhor experiência de acesso aos Endpoints da API, é recomendado utilizar algum API Client, que facilita a interação e visualização de APIs. Exemplo o [Postman](https://www.getpostman.com/).
+   - <b>Dica 1: </b>Caso queira uma melhor experiência de acesso aos Endpoints da API, é recomendado utilizar algum API Client, que facilita a interação e visualização de APIs. Exemplo o [Postman](https://www.getpostman.com/).
+   - <b>Dica 2: </b>Importe o arquivo `StarWars API.postman_collection.json` no Postman, que todos Endpoints da API serão disponibilizados para interação.
 
 ### 🛠 Tecnologias utilizadas:
 
