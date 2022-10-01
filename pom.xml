@@ -14,12 +14,32 @@
 	<name>webflux-reactive-feign-vs-webclient</name>
 	<description>Projeto Demo do uso de Spring Webflux com Reactive Feign e com Web Client para consumir API</description>
 	<properties>
+		<feign-reactor.version>3.2.6</feign-reactor.version>
+
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.playtika.reactivefeign</groupId>
+			<artifactId>feign-reactor-webclient</artifactId>
+			<version>${feign-reactor.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.playtika.reactivefeign</groupId>
+			<artifactId>feign-reactor-cloud</artifactId>
+			<version>${feign-reactor.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.playtika.reactivefeign</groupId>
+			<artifactId>feign-reactor-spring-configuration</artifactId>
+			<version>${feign-reactor.version}</version>
 		</dependency>
 
 		<dependency>
