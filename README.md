@@ -47,6 +47,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Lombok](https://projectlombok.org/)
 - [Spring Reactive Web](https://docs.spring.io/spring-boot/docs/2.7.4/reference/htmlsingle/#web.reactive)
 - [Reactive feign](https://github.com/PlaytikaOSS/feign-reactive)
+- [Springdoc-openapi](https://springdoc.org/)
 
 ## 👨‍💻Autor
 
